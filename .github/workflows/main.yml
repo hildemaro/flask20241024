@@ -36,4 +36,5 @@ jobs:
         continue-on-error: true 
         uses: PortSwigger/dastardly-github-action@main
         with:
-          target-url: 'https://ginandjuice.shop'
+          target-url: 'https://dastv1-fra0edc4b9gydef7.westus-01.azurewebsites.net/'
+          output-filename: dastardly-report.xml
