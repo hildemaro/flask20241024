@@ -38,3 +38,9 @@ jobs:
         with:
           target-url: 'https://dastv1-fra0edc4b9gydef7.canadacentral-01.azurewebsites.net/'
           output-filename: dastardly-report.xml
+
+      - name: Upload Report Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Analysis Report
+          path: /github/workspace/dastardly-report.xml
