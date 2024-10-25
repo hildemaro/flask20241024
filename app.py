@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "¡Hola, Azure 2024, Soy hildemaro cardenas! Esta App es vulnerable"
+    return "¡Hola, Azure 2024, Soy hildemaro cardenas! Hoy es 25 octubre 2024"
 
 # Conexión a la base de datos SQLite
 def get_db_connection():
